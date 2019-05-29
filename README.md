@@ -1,2 +1,2 @@
 # ants.interference
-An interference model for modelling among Argentine ants and Carpenter ants
+An interference and explotative model for simulating competition among Argentine ants and Carpenter ants.
