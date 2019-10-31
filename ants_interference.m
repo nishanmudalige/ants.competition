@@ -6,7 +6,7 @@ deltaX = .1   % month
 x = 0:deltaX:10;
 
 % Constants
-ARGbirthFraction = 0.6    % 1/month (ARG births per ARG adult per month)
+ARGbirthFraction = 0.6  % 1/month (ARG births per ARG adult per month)
 NATbirthFraction = 0.5    % 1/month (NAT births per NAT adult per month)
 ARGdeathConstant = .20  % 1/NAT*month (ARG deaths per ARG per NAT per mo.)
 NATdeathConstant = .20  % 1/ARG*month (NAT deaths per NAT per ARG per mo.)
