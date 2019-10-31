@@ -43,7 +43,7 @@ for (i = 2:length(x))
     NATdeathRate = NATdeathConstant * NATpop(i-1) * ARGpop(i-1)
 
     % Increase or decrease the population of each type of shark based on
-    %   the birth and death rates for this time step.
+    % the birth and death rates for this time step.
     ARGpop(i) = ARGpop(i-1) + (ARGbirthRate * (1 - ARGpop(i-1)/Ca - alpha*NATpop(i-1)/Ca   - pa*ARGpop(i-1) + ka*ARGpop(i-1) ) )* deltaX
     NATpop(i) = NATpop(i-1) + (NATbirthRate * (1 - NATpop(i-1)/Cn - beta*ARGpop(i-1)/Cn   - pn*NATpop(i-1) + kn*NATpop(i-1) )  )* deltaX
 end
